@@ -4,24 +4,17 @@ def rem():
     if l1_flag == 1:
         l1.grid_remove()
         l1_flag = 0
-
     else:
         l1.grid()
         l1_flag = 1
-
-
-
-
 def forg():
     global l2_flag
     if l2_flag == 1:
         l2.grid_forget()
         l2_flag = 0
-
     else:
         l2.grid(row=1)
         l2_flag = 1
-
 
 root = Tk()
 l1_flag = 1
